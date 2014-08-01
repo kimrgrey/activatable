@@ -4,7 +4,7 @@ Do you want to make your model activatable? No problem.
 
 ## How to use
 
-```
+```ruby
 class Api::SomeServiceApiWrapper < ActiveRecord::Base
     include Activatable
 
