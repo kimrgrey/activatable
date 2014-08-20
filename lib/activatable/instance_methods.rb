@@ -13,5 +13,9 @@ module Activatable
         self.update(field_name => true)
       end
     end
+
+    def deactivate_by(field_name)
+      self.update(field_name => false)
+    end
   end
 end
